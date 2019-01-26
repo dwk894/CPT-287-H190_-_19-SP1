@@ -4,8 +4,6 @@
 
 package data_structures;
 
-public class Node<T> {
-    public T data;
-    public Node<T> next;
-    public Node(T theData) { data = theData; }
+public interface IterableList<T> {
+    public List_Iterator<T> iterator();
 }

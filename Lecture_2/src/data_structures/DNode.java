@@ -4,8 +4,8 @@
 
 package data_structures;
 
-public class Node<T> {
+public class DNode<T> {
     public T data;
-    public Node<T> next;
-    public Node(T theData) { data = theData; }
+    public DNode<T> prev, next;
+    public DNode(T theData) { data = theData; }
 }
